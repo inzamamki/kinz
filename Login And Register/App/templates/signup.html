@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Signup</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/2354e8b647.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../static/css/dlog.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+
+    <script src="../static/css/burger.css"></script>
+    <link rel="shortcut icon" href="../static/img/tit.png">
+
+</head>
+
+<body>
+    <!-- left and right & background -->
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><a href="index.html"><img src="../static/img/dragon.jpg" alt="logo"></a> </div>
+        </ul>
+        <div class="rightNav v-class-resp">
+            <a href="start"><button type="submit" class="btn-d">BACK</button> </a>
+        </div>
+    </nav>
+
+    <!-- 1st section -->
+
+    <section class=" firstsection background">
+        <div class="box-main">
+            <div class="firsthalf box-signup">
+
+                <div class="container-d">
+                    <div class="form-d">
+                        <form method="POST" action="/add_user">
+                            
+                            <div class="box">
+                                <i class="fas fa-user"></i>
+                                <input type="text" name="username" placeholder="Enter Your User_Name">
+                            </div>
+
+                            <div class="box">
+                                <i class="fa fa-envelope"></i>
+                                <input type="email" name="email" placeholder="Enter Your Email">
+                            </div>
+
+                            <div class="box">
+                                <i class="fa fa-key"></i>
+                                <input type="password" name="password" placeholder="Enter Your Password">
+                            </div>
+
+                            <div class="box">
+                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                <input type="date" name="dob" placeholder="Enter Your D.O.B">
+                            </div>
+
+                            <div class="box">
+                                <i class="fas fa-map-marked-alt"></i>
+                                <input type="text" name="address" placeholder="Enter Your Address">
+                            </div>
+
+                            <div class="box">
+                                <i class="fas fa-phone-square-alt"></i>
+                                <input type="text" name="phone" placeholder="Enter Your phone">
+                            </div>
+
+                            <div class="box">
+                                <i class="fas fa-user-graduate"></i>
+                                <input type="text" name="degree" placeholder="Enter Your qualification">
+                            </div>
+
+                            <div class="buttons-d">
+                                
+                                <a href="index"><button type="submit" class="btn-d"><i class="fas fa-sign-in-alt"  ></i>    Sign_up</button> </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <link rel="stylesheet" href="../static/js/resp.js">
+</body>
+
+</html>
